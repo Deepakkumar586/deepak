@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="actor">
+        <nav>
+            <img src="menu.png"  class="menu-img">
+            <img src="logo.png"  class="logo">
+            <ul>
+                <li><a href="">Latest</a></li>
+                <li><a href="">MOdern</a></li>
+                <li><a href="">Contemporary</a></li>
+                <li><a href="">Affordable</a></li>
+
+            </ul>
+            <button type="button" onclick="togglebtn()" id="btn"><span></span></button>
+
+        </nav>
+        <div class="lamp">
+            <img src="lamp.png" class="lamp-name">
+            <img src="light.png" class="light" id="light">
+
+        </div>
+        <div class="container">
+            <h1>Latest<br> in lightning</h1>
+            <p>this is lamp </p>
+            <a href="">click all  conection</a>
+            <div class="control">
+            <p>hello</p>
+            <div class="line"></div>
+            <p>hii</p>
+        </div>
+        </div>
+
+    </div>
+    <script>
+        var btn = document.getElementById("btn");
+        var light = document.getElementById("light");
+
+        function togglebtn(){
+           btn.classList.toggle("active") ;
+            light.classList.toggle('on');
+        }
+    </script>
+</body>
+</html>

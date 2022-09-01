@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+
+}
+.actor{
+    background: black;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+nav .menu-img{
+    width: 27px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+nav.logo{
+    width: 170px;
+    cursor: pointer;
+}
+nav ul{
+    flex: 3;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+button{
+    background-color: #e0dada;
+    border-radius: 15px;
+    height: 30px;
+    width: 60px;
+    cursor: pointer;
+    transition: background 0.6s;
+}
+button span{
+    display: block;
+    background-color: rgb(83, 84, 85);
+    height: 25px;
+    width: 25px;
+    border-radius: 45%;
+    transition: background 0.6s  margin-left 0.6s;
+    margin-left: 2px;
+    
+    
+
+     
+}
+.lamp{
+    position: absolute;
+    left: 22%;
+    top: -20px;
+    width: 200px;
+}
+.lamp-name{
+    width: 100%;
+
+}
+.light{
+    position: absolute;
+    top: 97%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 700px;
+    margin-left: -10px;
+    opacity: 0;
+    transition: opacity 0.6s ;
+}
+.container{
+    max-width: 600px;
+    margin-top: 6%;
+    margin-left: 50%;
+}
+.containerr h1{
+    font-size: 70px;
+    font-weight: 400;
+}
+.container a{
+    text-decoration: none;
+    background: #00986f;
+    padding: 14px 40px;
+    display: inline-block;
+    color: wheat;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+.control{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 150px;
+}
+ .control .line{
+    width: 250px;
+    height: 3px;
+    background-color: beige;
+    margin: 0 20px;
+    border-bottom: 2px;
+
+ }
+ .control .line span{
+    width: 50%;
+    height: 8px;
+    margin-top: -2px;
+    background-color: aqua;
+    display: block;
+    border-radius: 4px;
+ }
+ .active{
+    background: #8106ec;
+    position: relative;
+ }
+ .active span{
+    background: rgb(167, 78, 78);
+    margin-left: 31px;
+ }
+ .on{
+    opacity: 1;
+ }
